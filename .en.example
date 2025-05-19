@@ -1,0 +1,18 @@
+# Server Configuration
+PORT=3000
+
+# PostgreSQL Configuration
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_NAME=article_db
+
+# JWT Configuration
+JWT_SECRET=secret-passwords
+JWT_EXPIRES_IN=24h
+
+# Redis Configuration
+REDIS_HOST=localhost
+REDIS_PORT=6379
+REDIS_PASSWORD=22222
